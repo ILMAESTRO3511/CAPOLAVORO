@@ -1,0 +1,72 @@
+
+.cart {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart h2{
+    border-top: 2px solid #aaa;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .cartBtn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #c13f3f;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  .cartBtn:hover {
+    background-color: #a50606;
+  }
+
+  #totalCash{
+    text-align: center;
+    font-weight: 900;
+  }
+
+  #cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #cart-items li {
+    background-color: #333;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  #info-cart{
+    color: red;
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .original-price {
+    color: red; /* Colore rosso per evidenziare il prezzo originale */
+    text-decoration: line-through; /* Linea sopra il testo per indicare il prezzo scontato */
+  }
+
+  /* Stile per il prezzo scontato (gratis) */
+  .discounted-price {
+    color: green; /* Colore verde per indicare il prezzo scontato (gratis) */
+    font-weight: bold; /* Testo in grassetto per attirare l'attenzione */
+  }
+  .card{
+    margin: 20px;
+  }
